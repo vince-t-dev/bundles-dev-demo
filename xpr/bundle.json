@@ -1,7 +1,7 @@
 {
     "templates" : [
         { 
-            "name" : "Bundles 2.0 Feature Demonstration",
+            "name" : "Bundles 2.0 Template",
             "element" : "template",
             "options" : { 
                 "live" : true
