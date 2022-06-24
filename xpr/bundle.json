@@ -1,7 +1,7 @@
 {
     "templates" : [
         { 
-            "name" : "Bundles 2.1 PL",
+            "name" : "Bundles 2.2 PL",
             "element" : "template",
             "options" : { 
                 "live" : true
