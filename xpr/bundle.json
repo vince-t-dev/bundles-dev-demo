@@ -16,7 +16,7 @@
         },
         {
             "name" : "Bundles 2.2 Skin JS",
-            "element" : "skin",
+            "element" : "skintwo",
             "options" : {} 
         }
     ]
