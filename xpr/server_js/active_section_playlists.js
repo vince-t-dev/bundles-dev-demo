@@ -1,5 +1,6 @@
+const xpr_objects = require("/xpr/request");
+
 exports.process = function(context, options) {
-    const xpr_objects = require("/xpr/request");
     let request = xpr_objects.XprRequest();
     let api = xpr_objects.XprApi;    
 
@@ -18,11 +19,11 @@ exports.process = function(context, options) {
     });
     
     // only show published articles 
-    playlists = _.each(playlists, function(playlist) {
-        _.each(playlist._embedded.PlaylistItems, function(article) {
-            if (!article._embedded.Article.Active) article._embedded.Article = {};  
-        });
-    });
+    //playlists = _.each(playlists, function(playlist) {
+    //    _.each(playlist._embedded.PlaylistItems, function(article) {
+    //        if (!article._embedded.Article.Active) article._embedded.Article = {};  
+    //    });
+    //});
      
     return playlists;
 }
