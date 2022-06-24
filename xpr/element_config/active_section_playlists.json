@@ -1,10 +1,11 @@
 {
     "datasources": [
         {
+            "path" : "playlist_container",
             "name" : "SectionPlaylist",
             "scripts" : [
                 {
-                    "path" : "/active_section_playlists"
+                    "path" : "/active_section_playlists" 
                 }
             ]
         }

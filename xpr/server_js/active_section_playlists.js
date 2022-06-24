@@ -17,12 +17,12 @@ exports.process = function(context, options) {
         }
     });
     
-    // only show published articles
+    // only show published articles 
     playlists = _.each(playlists, function(playlist) {
         _.each(playlist._embedded.PlaylistItems, function(article) {
             if (!article._embedded.Article.Active) article._embedded.Article = {};  
         });
     });
-    
+     
     return playlists;
 }
