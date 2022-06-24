@@ -1,7 +1,7 @@
 {
     "templates" : [
         { 
-            "name" : "Bundles 2.0 Feature Demonstration",
+            "name" : "Bundles 2.1 PL",
             "element" : "template",
             "options" : { 
                 "live" : true
@@ -11,6 +11,11 @@
     "skins" : [
         {
             "name" : "Bundles 2.0 Sample Skin",
+            "element" : "skin",
+            "options" : {} 
+        },
+        {
+            "name" : "Bundles 2.1 Skin JS",
             "element" : "skin",
             "options" : {} 
         }
