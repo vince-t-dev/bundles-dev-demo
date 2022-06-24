@@ -10,12 +10,12 @@
     ],
     "skins" : [
         {
-            "name" : "Bundles 2.0 Sample Skin",
+            "name" : "Bundles 2.2 Skin HBS",
             "element" : "skin",
             "options" : {} 
         },
         {
-            "name" : "Bundles 2.1 Skin JS",
+            "name" : "Bundles 2.2 Skin JS",
             "element" : "skin",
             "options" : {} 
         }
