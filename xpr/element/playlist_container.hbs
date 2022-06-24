@@ -1,5 +1,6 @@
 <a target="_blank" href="{{options.path}}">In nested element</a>
 
 {{#each SectionPlaylist}}
-    {{{XprElement bundlePath=RendererBundlePath context.playlist=this}}}
+    in loop
+    {{{XprElement bundlePath=RendererBundlePath options.playlist=this}}}
 {{/each}} 
